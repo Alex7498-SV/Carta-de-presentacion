@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="216dp"
+            android:layout_height="174dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/f1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="20sp"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:text="Ruben Siguenza" />
+
+        <LinearLayout
+            android:layout_marginTop="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_weight="4"
+                android:src="@drawable/índice" />
+
+            <TextView
+                android:layout_margin="2sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:layout_weight="4"
+                android:text="alex siguenza" />
+
+            <ImageView
+
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/The_Instagram_Logo" />
+
+            <TextView
+                android:layout_margin="2sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_gravity="center"
+                android:text="a.sigueza98"
+                android:textColor="#000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:layout_weight="4"
+                android:src="@drawable/github" />
+
+            <TextView
+                android:layout_margin="2sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textColor="#000"
+                android:layout_weight="4"
+                android:text="Alex7498-SV" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
